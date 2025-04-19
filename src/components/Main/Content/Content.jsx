@@ -1,16 +1,16 @@
 import React from 'react';
-import './../styles/Main.css';
-import bg from "./../images/bg/bg_image.jpg";
+import s from './../Main.module.css';
+import bg from "./../../../images/bg/bg_image.jpg";
 import ProfileInfo from '../ProfileInfo/ProfileInfo';
 import NewPostForm from '../NewPostForm/NewPostForm';
 
 
 const Content = () => {
   return (
-    <div className="Content"> 
+    <div className={s.Content}> 
       <img src={bg} alt="bg" /> 
       <ProfileInfo/>
-      <div className="ContentLine"></div>
+      <div className={s.ContentLine}></div>
       <NewPostForm/>
     </div>
   );

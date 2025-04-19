@@ -1,20 +1,20 @@
 import React from 'react';
-import './../styles/Header.css';
-import logotype from'./../images/logo/logo.svg';
+import s from './Header.module.css';
+import logotype from'./../../images/logo/logo.svg';
 
 const Header = () => {
   return (
-    <div className="Header">
-      <div className="logo">
+    <div className={s.Header}>
+      <div className={s.logo}>
         <img src={logotype} alt="logo" />
         <span>Amethyst</span>
       </div>
-      <nav className="nav">
-        <ul className="list">
-          <li className="item">Our News </li>
-          <li className="item">logIn </li>
-          <li className="item">Contacts</li>
-          <li className="item">About</li>
+      <nav className={s.nav}>
+        <ul className={s.list}>
+          <li className={s.item}>Our News </li>
+          <li className={s.item}>logIn </li>
+          <li className={s.item}>Contacts</li>
+          <li className={s.item}>About</li>
         </ul>
       </nav>
     </div>

@@ -1,18 +1,18 @@
 import React from 'react';
-import './../styles/Aside.css';
+import s from './Aside.module.css';
 
 
 const Aside = () => {
   return (
-    <div className="Aside">      
-        <ul className="list_aside">
-          <li className="item_aside">Services</li>
-          <li className="item_aside">My Friends</li>
-          <li className="item_aside">My Messages</li>
-          <li className="item_aside">My Posts</li>
-          <li className="item_aside">My Profile</li>
-          <li className="item_aside">-</li>
-          <li className="item_aside">Settings</li>
+    <div className={s.Aside}>      
+        <ul className={s.list_aside}>
+          <li className={s.item_aside}>Services</li>
+          <li className={s.item_aside}>My Friends</li>
+          <li className={s.item_aside}>My Messages</li>
+          <li className={s.item_aside}>My Posts</li>
+          <li className={s.item_aside}>My Profile</li>
+          <li className={s.item_aside}>-</li>
+          <li className={s.item_aside}>Settings</li>
         </ul>     
     </div>
   );
