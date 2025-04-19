@@ -1,0 +1,50 @@
+.Header 
+{
+    display: grid;
+    grid-template-areas: "logo nav";
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr;
+    gap: 50%;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #a47aae;
+}
+
+.logo  {
+    grid-area: logo;
+    display: flex;
+    align-items: center;
+}
+
+.logo img, .logo span
+{
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.logo span
+{
+    line-height: 100%;
+}
+
+.nav {
+    grid-area: nav;
+    display: flex;
+    align-items: center;
+}
+
+.list
+{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item
+{
+    display: block;
+    text-align: center;
+}

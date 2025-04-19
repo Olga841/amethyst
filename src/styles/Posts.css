@@ -1,0 +1,32 @@
+.NewPostForm
+{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.NewPostForm input
+{
+    display: block;
+    width: 60%;
+    height: 80px;
+    border-radius: 20px;
+    border: 1px solid #4f0063;
+    background-color: #f8f5f9;
+    font-family: "Italiana";
+    padding-left: 20px;
+}
+
+.NewPostForm button
+{
+    display: block;
+    margin:20px 0;
+    width: 150px;
+    height: 50px;
+    font-family: 'Italiana';
+    background-color: #4f0063;
+    color: #fff;
+    border-radius: 10px;
+}
