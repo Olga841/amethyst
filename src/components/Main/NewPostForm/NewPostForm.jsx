@@ -1,11 +1,11 @@
 import React from 'react';
-import './../styles/Posts.css';
+import s from './Posts.module.css';
 
 
 
 const NewPostForm = () => {
   return (
-    <div className="NewPostForm"> 
+    <div className={s.NewPostForm}> 
       <input type="input" placeholder='Write your new post...'/>
       <button>Submit</button>   
     </div>
