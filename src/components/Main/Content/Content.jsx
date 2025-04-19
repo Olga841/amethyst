@@ -1,8 +1,8 @@
 import React from 'react';
 import './../styles/Main.css';
 import bg from "./../images/bg/bg_image.jpg";
-import ProfileInfo from './ProfileInfo';
-import NewPostForm from './NewPostForm';
+import ProfileInfo from '../ProfileInfo/ProfileInfo';
+import NewPostForm from '../NewPostForm/NewPostForm';
 
 
 const Content = () => {

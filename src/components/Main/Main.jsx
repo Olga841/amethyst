@@ -1,7 +1,7 @@
 import React from 'react';
 import './../styles/Main.css';
-import Aside from './Aside';
-import Content from './Content';
+import Aside from '../Aside/Aside';
+import Content from './Content/Content';
 
 
 const Main = () => {
