@@ -3,6 +3,7 @@ import s from './../Main.module.css';
 import bg from "./../../../images/bg/bg_image.jpg";
 import ProfileInfo from '../ProfileInfo/ProfileInfo';
 import NewPostForm from '../NewPostForm/NewPostForm';
+import Posts from '../../Posts/Posts';
 
 
 const Content = () => {
@@ -12,6 +13,7 @@ const Content = () => {
       <ProfileInfo/>
       <div className={s.ContentLine}></div>
       <NewPostForm/>
+      <Posts/>
     </div>
   );
 }
