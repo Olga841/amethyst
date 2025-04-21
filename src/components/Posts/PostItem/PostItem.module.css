@@ -5,17 +5,26 @@
 
 .PostItem_wrapper  
 {
-    padding: 20px;
+    padding: 20px;      
+}
+
+.PostItem_container
+{
     display: flex;
-    /* flex-direction: column; */
     text-align: left;
     column-gap: 20px;
 }
+
+/* .PostItem_icons
+{
+    
+} */
 
 .PostItem_img
 {
     display: block;
     width: 50px;
+    height: 50px;
     border: 1px solid #a47aae;
     border-radius: 50%;
 
@@ -24,14 +33,18 @@
 /* .PostItem_text
 {
 
-}
+} */
 
 .PostItem_icons
 {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
 
 }
 
 .PostItem_icon
 {
-    
-} */
+    display: block;
+    width: 20px;
+}
