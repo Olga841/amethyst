@@ -1,0 +1,72 @@
+.Main
+{
+    display: grid;
+    grid-template-areas: "aside content";
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 4fr;
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+
+
+.content {
+    grid-area: content;
+}
+
+.content img
+{
+    display: block;
+    width: 100%;
+}
+
+.ProfileInfo
+{
+    margin: 30px 0;
+    display: flex; 
+    gap:50px;
+}
+
+.ProfileInfo img
+{
+    display: block;
+    padding: 0 20px;
+    height: 100%;
+}
+
+.ProfileInfo .UserDataContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.ProfileInfo .UserData
+{
+    font-size: 32px;
+}
+
+.ProfileInfo .UserLocation
+{
+    font-size: 18px;
+}
+
+.ProfileInfo .UserInfo
+{
+    text-align: left;
+    font-size: 20px;
+}
+
+.ContentLine::after
+{
+    content:'';
+    background: #4f0063;
+    display: block;
+    height: 2px;
+    width: 90%;
+    margin: 0 auto;
+}
