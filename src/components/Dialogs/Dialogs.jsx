@@ -1,5 +1,8 @@
 import React from 'react';
 import s from './Dialogs.module.css';
+import avatar from './../../images/avatar/Avatar.jpg';
+import DialogItem from './Dialog/DialogItem';
+
 
 
 
@@ -11,10 +14,10 @@ const Dialogs = () => {
             <input type="text" className={s.input} />
             <button className={s.button}>Search</button>
           </div>
-          <Dialog/>
-          <Dialog/>
-          <Dialog/>
-          <Dialog/>
+          <DialogItem avatar={avatar} userData="Olga Alekseeva" message="Lorem" date="today" time="11:24"/>
+          {/* <DialogItem/>
+          <DialogItem/>
+          <DialogItem/> */}
         </div>
     </div>
   );

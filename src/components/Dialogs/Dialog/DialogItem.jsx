@@ -1,23 +1,17 @@
 import React from 'react';
-import s from './Dialogs.module.css';
+import s from './DialogItem.module.css';
 
-
-
-const Dialogs = () => {
+const DialogItem = (props) => {
   return (
-    <div className={s.Dialogs}>        
-        <div className={s.Dialogs_wrapper}>
-          <div className={s.Dialogs_search}>
-            <input type="text" className={s.input} />
-            <button className={s.button}>Search</button>
-          </div>
-          <Dialog/>
-          <Dialog/>
-          <Dialog/>
-          <Dialog/>
+    <div className={s.DialogItem}>        
+        <img src={props.avatar} alt="avatar" className={s.DialogItem_avatar} />
+        <div className={s.DialogItem_wrapper}>
+          <div className={s.DialogItem_UsedData}>{props.userData}</div>
+          <div className={s.DialogItem_message}>{props.message}</div>
         </div>
+        <div className={s.DialogItem_DateTime}>{props.date} {props.time}</div>
     </div>
   );
 }
 
-export default Dialogs;
+export default DialogItem;

@@ -1,72 +1,36 @@
-.Main
-{
-    display: grid;
-    grid-template-areas: "aside content";
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 4fr;
-    gap: 10px;
-    margin: 0 auto;
-    margin-top: 10px;
-    background-color: #fff;
-}
-
-
-
-.content {
-    grid-area: content;
-}
-
-.content img
-{
-    display: block;
-    width: 100%;
-}
-
-.ProfileInfo
-{
-    margin: 30px 0;
-    display: flex; 
-    gap:50px;
-}
-
-.ProfileInfo img
-{
-    display: block;
-    padding: 0 20px;
-    height: 100%;
-}
-
-.ProfileInfo .UserDataContainer
-{
+.DialogItem {
+    padding: 40px;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     gap: 30px;
-    align-items: flex-start;
+    align-items: center;
 }
 
-.ProfileInfo .UserData
-{
-    font-size: 32px;
-}
 
-.ProfileInfo .UserLocation
-{
-    font-size: 18px;
-}
 
-.ProfileInfo .UserInfo
-{
+.DialogItem_avatar {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.DialogItem_wrapper {
+    width: 90%;
+    background-color: #F1EBF3;
+    border-radius: 10px;
+    padding: 20px;
     text-align: left;
+}
+
+.DialogItem_UsedData
+{
     font-size: 20px;
 }
 
-.ContentLine::after
+.DialogItem_message
 {
-    content:'';
-    background: #4f0063;
-    display: block;
-    height: 2px;
-    width: 90%;
-    margin: 0 auto;
+    font-size: 16px;
+}
+.DialogItem_DateTime{
+    color: #4F0063;
+    font-size: 18px;
+    text-align: left;
 }
