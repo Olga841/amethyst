@@ -9,7 +9,7 @@ import state from './state';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App posts = {state.profilePage.posts} dialogs={state.dialogsPage.dialogs}/>
+    <App posts={state.profilePage.posts} dialogs={state.dialogsPage.dialogs} friends={state.friendsPage.friends} />
   </React.StrictMode>
 );
 

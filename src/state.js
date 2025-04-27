@@ -24,6 +24,17 @@ let state = {
             { id: 6, userData: "Natasha", message: "Lorem ipsum", date: "last week", time: null },
             { id: 7, userData: "Andrey", message: "Lorem ipsum", date: "last week", time: null },
         ]
+    },
+    friendsPage: {
+        friends: [
+            { id: 1, name: "Olga", surname: null, descr: "Lorem ipsum" },
+            { id: 2, name: "Sveta", surname: null, descr: "Lorem ipsum" },
+            { id: 3, name: "Olesya", surname: null, descr: "Lorem ipsum" },
+            { id: 4, name: "Ksyusha", surname: null, descr: "Lorem ipsum" },
+            { id: 5, name: "Liza", surname: null, descr: "Lorem ipsum" },
+            { id: 6, name: "Natasha", surname: null, descr: "Lorem ipsum" },
+            { id: 7, name: "Andrey", surname: null, descr: "Lorem ipsum" },
+        ]
     }
 }
 

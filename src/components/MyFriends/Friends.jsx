@@ -7,7 +7,7 @@ const Friends = (props) => {
     <div className={s.Friends}>
       <input type="input" placeholder="Search" />
       <button>Search</button>
-      <FriendItem/>
+      <FriendItem friends = {props.friends}/>
     </div>
   );
 };

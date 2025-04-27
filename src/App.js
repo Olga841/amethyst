@@ -8,7 +8,7 @@ const App = (props) => {
   return (
     <div className="App">
       <Header />
-      <Main dialogs = {props.dialogs} posts = {props.posts}/>
+      <Main dialogs = {props.dialogs} posts = {props.posts} friends = {props.friends}/>
     </div>
   );
 }

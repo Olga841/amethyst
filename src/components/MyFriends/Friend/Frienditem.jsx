@@ -6,7 +6,7 @@ const FriendItem = (props) => {
   return (
     <div className={s.Friend_container}>
       <div className={s.Friend_wrapper}>
-        <img src={avatar} alt="photo" className={s.Friend_avatar} />
+        <img src={avatar} alt="avatar" className={s.Friend_avatar} />
         <div className={s.Friend_data_container}>
           <div className={s.Friend_data}>
             `${props.name} + ' ' + {props.surname}`
