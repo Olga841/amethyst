@@ -9,7 +9,7 @@ import Posts from '../../Posts/Posts';
 const Content = () => {
   return (
     <div className={s.Content}> 
-      <img src={bg} alt="bg" /> 
+      <img src={bg} alt="bg" className={s.Content_img}/> 
       <ProfileInfo/>
       <div className={s.ContentLine}></div>
       <NewPostForm/>

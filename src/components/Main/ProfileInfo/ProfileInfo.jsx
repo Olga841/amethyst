@@ -16,7 +16,7 @@ let user = {
 const ProfileInfo = () => {
   return (
     <div className={s.ProfileInfo}> 
-     <img src={avatar} alt="my_photo" /> 
+     <img src={avatar} alt="my_photo" className={s.ProfileInfo_img} /> 
       <div className={s.UserDataContainer}>
         <div className={s.UserData}>{user.userName}</div>
         <div className={s.UserLocation}>{user.userLocation.country}, {user.userLocation.city}</div>
