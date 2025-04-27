@@ -15,9 +15,11 @@ const Dialogs = () => {
             <button className={s.button}>Search</button>
           </div>
           <DialogItem avatar={avatar} userData="Olga Alekseeva" message="Lorem" date="today" time="11:24"/>
-          {/* <DialogItem/>
+          <DialogItem avatar={avatar} userData="Olga Alekseeva" message="Lorem" date="today" time="11:24"/>
+          <DialogItem avatar={avatar} userData="Olga Alekseeva" message="Lorem" date="today" time="11:24"/>
           <DialogItem/>
-          <DialogItem/> */}
+          <DialogItem/>
+          <DialogItem/>
         </div>
     </div>
   );

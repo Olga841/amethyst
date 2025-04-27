@@ -1,11 +1,13 @@
 .DialogItem {
-    padding: 40px;
+    margin: 20px auto; 
+}
+
+.DialogItem_container {
     display: flex;
     gap: 30px;
     align-items: center;
+    padding: 40px;   
 }
-
-
 
 .DialogItem_avatar {
     display: block;
@@ -27,10 +29,20 @@
 
 .DialogItem_message
 {
+    margin-top: 10px;
     font-size: 16px;
 }
-.DialogItem_DateTime{
+.DialogItem_DateTime { 
     color: #4F0063;
     font-size: 18px;
     text-align: left;
+}
+.DialogItem_AfterLine::after
+{
+    content:'';
+    background: #4f0063;
+    display: block;
+    height: 2px;
+    width: 95%;
+    margin: 0 auto;
 }

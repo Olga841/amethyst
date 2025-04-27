@@ -12,15 +12,15 @@
 
 
 
-.content {
+.Content {
     grid-area: content;
 }
 
-.content img
+/* .Content img
 {
     display: block;
     width: 100%;
-}
+} */
 
 .ProfileInfo
 {
@@ -33,7 +33,8 @@
 {
     display: block;
     padding: 0 20px;
-    height: 100%;
+    height: 100px;
+    width: 100px;
 }
 
 .ProfileInfo .UserDataContainer

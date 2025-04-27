@@ -23,4 +23,16 @@
     text-align: center;
     padding: 20px 0;
     font-size: 24px;
+    
+}
+.item_aside a
+{
+    text-decoration: none;
+    color: #4f0063;
+
+}
+
+.item_aside a.active
+{
+    color: #fff
 }
