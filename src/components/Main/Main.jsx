@@ -7,14 +7,15 @@ import { Routes, Route, BrowserRouter } from "react-router";
 
 
 
-const Main = () => {
+const Main = (props) => {
+ 
   return (
     <BrowserRouter>
       <div className={s.Main}>        
       <Aside/>
       <Routes>
-        <Route path="/profile" element={<Content />} />
-        <Route path="/dialogs" element={<Dialogs />} />
+        <Route path="/profile" element={ <Content posts = {props.posts}/>} />
+        <Route path="/dialogs" element={ <Dialogs dialogs = {props.dialogs}/>} />
       </Routes>
     </div>
     </BrowserRouter>        

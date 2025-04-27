@@ -6,14 +6,14 @@ import NewPostForm from '../NewPostForm/NewPostForm';
 import Posts from '../../Posts/Posts';
 
 
-const Content = () => {
+const Content = (props) => {
   return (
     <div className={s.Content}> 
       <img src={bg} alt="bg" className={s.Content_img}/> 
       <ProfileInfo/>
       <div className={s.ContentLine}></div>
       <NewPostForm/>
-      <Posts/>
+      <Posts posts={props.posts}/>
     </div>
   );
 }

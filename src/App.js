@@ -3,11 +3,12 @@ import './App.css';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 
-const App = () => {
+const App = (props) => {
+  
   return (
     <div className="App">
       <Header />
-      <Main/>
+      <Main dialogs = {props.dialogs} posts = {props.posts}/>
     </div>
   );
 }
