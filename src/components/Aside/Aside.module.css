@@ -36,3 +36,30 @@
 {
     color: #fff
 }
+
+.aside_friends {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* .aside_friends_container {
+
+} */
+
+.aside_friends_img {
+    border-radius: 50%;
+    border: 1px solid #4f0063;
+    width: 100%;
+    height: auto;
+}
+
+.aside_friends_name {
+    color:#4f0063;
+    font-size: 14px;
+    padding-top: 10px;
+}
