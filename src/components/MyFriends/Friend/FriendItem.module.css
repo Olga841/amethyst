@@ -1,0 +1,40 @@
+.Friend_container {
+    margin: 20px auto; 
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 40px;
+}
+
+.Friend_avatar {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+/* .Friend_data_container {
+
+}
+
+.Friend_data {
+    font-size: 20px;
+}
+
+.Friend_description {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.Friend_button {
+
+} */
+
+.Friend_AfterLine::after
+{
+    content:'';
+    background: #4f0063;
+    display: block;
+    height: 2px;
+    width: 95%;
+    margin: 0 auto;
+}
